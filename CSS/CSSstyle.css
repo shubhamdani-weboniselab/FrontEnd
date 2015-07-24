@@ -1,0 +1,112 @@
+header {
+width: auto;
+background-color: #686851;
+height: 50px;
+text-align: center;
+ 
+}
+footer {
+	width: 100%;
+ 	text-align: center;
+	padding-right: 150px;
+	height: 50px;
+	background-color: #ECECEC;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #ff8000;
+
+}
+.container {
+	width: 940px;
+	padding: 7.5px;
+	text-align:center;
+margin-left: 100px;	
+
+}
+.container a {
+	color: #aaaaaa;
+}
+
+li {
+ 	display: inline;
+ 	font-color:#aaaaaa;
+ 	font-size: 18px;
+ 	margin-left: 80px;
+ 	text-align: center;
+ 	padding-bottom: 7.5px;
+ 	}
+  
+
+.logo{
+	float: left;
+	background-color: #FF8000;
+	width: 140;
+	margin-left: 100px;
+	height: 35;
+	}
+.banner {
+
+	background-color: #71c4ea;
+	width: auto;
+	height: 485px;
+}
+
+.HowIt { 
+width: auto;
+text-align: center;
+padding-top: 64px;
+padding-bottom: 70px;
+font-size: 36px;
+font-color:#444444;
+
+}
+.circle {
+ 
+	width: 940px;
+	float: left;
+	 margin-left:5px; 
+	 padding-right:30px;
+	 padding-left: 35px;
+	 margin-bottom: 110px;
+}
+.circle li{
+	width: 100px;
+	float: left;
+	margin-left: 75px;
+	text-align:justify;
+	/*padding-left: 30px;
+	padding-right: 45px;*/
+}
+
+.quotes{ 
+	/*margin-left: 410px;*/
+	}
+
+.quotes li {
+	width: 130px;
+	text-align: justify, center;
+	float: left;
+ 	font-size: 18px;
+ 	padding-left: 30px;
+	padding-right: 45px;
+
+ 
+ 
+	/*padding-right: 45px;*/
+}
+
+
+
+footer a:hover {
+ color:#444444;
+
+}
+footer a{
+color:#FF8000;
+}
+
+body {
+padding:0px;
+margin: 0px;
+}
