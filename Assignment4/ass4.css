@@ -3,6 +3,10 @@ header {
 	height: 45px;
 	background-color: black;
 }
+a {
+	display: block;
+	color: #FFFFFF;
+}
 
 .logo {
 	width: auto;
