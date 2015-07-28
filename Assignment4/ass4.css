@@ -2,12 +2,11 @@ header {
 	width: 100%;
 	height: 45px;
 	background-color: black;
+	margin-bottom: 20px;
 }
-a {
-	display: block;
-	color: #FFFFFF;
+ul {
+	clear:both;
 }
-
 .logo {
 	width: auto;
 	padding-top: 15px;
@@ -20,9 +19,14 @@ a {
 	display: block;
 	color: #FFFFFF;
 }
-.input { 
+ a {
+	display: block;
+	color: #FFFFFF;
+}
+
+.inputFrom { 
 padding: 10px;
-height: 50px;
+height: 30px;
 }
 .bannercontainer {
 	border-radius: 6px;
@@ -44,6 +48,7 @@ height: 50px;
 p{
 	display: block;
 	font-size: 18px;
+	
 	text-align: justify;
 }
 
@@ -54,7 +59,7 @@ p{
 
 }
 .form {
-	margin-top: 5px;
+	margin-top: 7px;
 }
 .submit {
 	height: 30px;
@@ -64,7 +69,7 @@ p{
 .menu {
 	 width: auto;
 	height: 45px;
-	float: left;
+	 
 }
 .menu li {
 	list-style: none;
