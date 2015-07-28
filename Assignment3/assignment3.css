@@ -19,9 +19,7 @@ header {
 	height: 55px;
 	background-color: #ff8000;
 }
-/*.container a {
-	display: block;
-}*/
+ 
 .header_list{
 	width: auto;
 	height: 55px;
@@ -47,10 +45,10 @@ header {
 .search img {
 	width: 30px;
 	height: 30px;
-	float: left;
-	padding-left: 20px;
+	 
+	 
 	margin-top: 5px;
-	margin-left: 10px;
+ 
 }
 .serach a {
 	clear: left;
@@ -59,11 +57,12 @@ header {
 }
 .search input {
 	float: left;
-	width: 240px;
+	width: 270px;
 	height: 40px;
 	border: 0px;
 
 }
+ 
 .search {
 	width: 300px;
 	float: right;
@@ -74,6 +73,7 @@ header {
 }
 
 
+
 .header_list a {
 	list-style-type: none;
 	text-decoration: none;
@@ -82,7 +82,7 @@ header {
 	
 a {
 	text-decoration: none;
-	/*display: block;*/
+	display: block;
 }
 
 
@@ -92,7 +92,7 @@ a {
 	clear:both;
 	float: left;
 	background-color: black;
-	/*position: relative;*/
+	 
 }
 .bannerImage   {
 	width: 940px;
@@ -111,17 +111,26 @@ a {
 	clear: both;
 	float:left;
 	background-color: #ecab1f;
-}.search input {
-	float: left;
-	width: 240px;
-	height: 40px;
-	border: 0px;
-
 }
 .menu .container li:last-child{
-	margin-right: 0px;
-	margin-top: 20px;
+	margin: 0px;
+	float: none;
+	width: 0;
+	height: 0;
+	clear: both;
 } 
+.menu li:nth-child(4) {
+	margin-right: 0px;
+}
+
+.happening li:last-child {
+	margin: 0px;
+	float: none;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
 
 .menu .container {
 	height: 100px;
@@ -129,36 +138,14 @@ a {
 }
 .menu li {
 	margin-top: 20px;
-/*	clear:both;*/
 	float:left;
 	color: #aaaaaa;
 	margin-right: 20px;
 	list-style: none;
 }
-.menu ul {
-	clear: both;
-	display: inline-block;
-}
-/*li {
-	float:left;
-	color: #aaaaaa;
-	padding-left: 20px;
-	list-style: none;
-	 
-}*/
-/*ul{
-	clear:both;
-	margin-top: 20px;
-	height: 20px;
+ 
 
-}*/
-/*.menu ul{
-	margin-left: 150px;
-	height: 60px;
-	float: left
-	padding: 0px;
-
-}*/
+ 
 .menu img {
 	float: right;
 }
@@ -179,7 +166,6 @@ background-color: #ffffff;
 
 .happening{
 	margin-top: 60px;
-	 
 	width: 940px;
 }
  
@@ -197,21 +183,23 @@ h1 {
 	list-style: none;
 	width: 300px;
 	margin-right: 20px;
-	/*padding-left: 0px;*/
-	height: 250px;
-	 
 	display: block;
 
 }
-.happening li:last-child {
+.happening li:nth-child(3) {
 	margin-right: 0px;
 }
-.happening ul {
-	display: inline-block;
-	float: left;
+
+.happening li:last-child {
+	margin: 0px;
+	float: none;
+	width: 0;
+	height: 0;
+	clear: both;
 }
+ 
 .happening a {
-	display:  block;
+	display: inline-block;
 }
 .happening img {
 	height: 250px;
@@ -220,16 +208,7 @@ h1 {
 	margin: 0px;
 	display: block;
 }
-.center {
-	/*padding-top: 21px;*/
-	/*
-	padding-bottom: 21px;
-	padding-left: 65px;
-	padding-right: 35px;*/
-	/*float: left;*/
-
  
-}
 
 .links a {
  padding: 20px 10px;
